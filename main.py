@@ -1,8 +1,4 @@
-import configparser
 from torrent_clients.clients.marcianoTorrent import MarcianoTorrentClient
-
-config = configparser.ConfigParser()
-config.read('config.ini')
 
 client = MarcianoTorrentClient()
 series = []
